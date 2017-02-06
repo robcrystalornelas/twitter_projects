@@ -3,14 +3,6 @@ library(rtweet)
 
 ### FIRST WHEN CREATING APP SET CALLBACK TO: http://127.0.0.1:1410
 
-## whatever name you assigned to your created app
-appname <- "invasion_twitter_scraper"
-
-## api key (example below is not a real key)
-key <- "cygKkA7xNgzfhiQ1lrrItQP29"
-
-## api secret (example below is not a real key)
-secret <- "SC7bnD7eRsVQ5L7fM6lL8LRbLOmkbyS8KoCGCwRAqGxnRNxZPJ"
 
 ## create token named "twitter_token"
 twitter_token <- create_token(
